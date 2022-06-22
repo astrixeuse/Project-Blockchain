@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>MyApp</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="diplome.css">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <script src="node_modules/web3.js-browser/build/web3.min.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="qrcode.js"></script>
+
+
+
+ 
+  
+</head>
+<body>
+  <div class="main">
+    <header>
+       <div class="nav-bar">
+         <a href="Acceuil.html" class="logo">MySite</a>
+           <div class="navigation">
+              <div class="nav-items">
+                <a href="Acceuil.html">Acceuil</a>
+                <a href="about.html">A propos</a>
+               </div>
+           </div>
+     </div>
+                     
+                
+    </header>
+    
+    <input type="submit" class="button" id="submit" value="Afficher le code Qr" onclick="codeQr()">
+    <input type="submit" class="button" id="submit1" value="Afficher les infos" onclick="Affiche()">
+    <script src="Public.js"></script>
+
+
+
+
+
+<div class="outer-border">
+
+  <p class="certification" id="school"><i></i></p>
+
+<br><br>
+
+  <span class="certify"><i>Certifie que l'étudiant(e)</i></span>
+  <span class="name" id="lastname" ></span>
+<span class="name" id="name" ></span>
+<span class="certify"><i>Né(e) le </i></span>
+<span class="name" id="birthdate"></span>
+<span class="certify"><i>à</i></span>
+<span class="name" id="birthplace"></span>
+
+<br><br>
+
+<span class="certify"><i>A obtenu le diplôme de : </i></span> 
+<span class="name" id="cert"></span>
+
+<br><br>
+
+<span class="certify"><i>Spécialité : </i></span> 
+<span class="name" id="spec"></span>
+
+<br><br>
+
+<span class="certify"><i>Faculté: </i></span> 
+<span class="name" id="fac"></span> 
+
+<br><br>
+
+
+
+<span class="certify" ><i>Le:</i></span> 
+<span class="name" id="gyear"></span>
+
+
+<br><br>
+
+<span class="certify"><i>Identificateur du diplôme: </i></span> 
+<span class="name" id="id"></span> <br><br>
+
+<div style="background-color:black;width:200px;height:200px;margin-left:1000px;margin-top:-250px;" id="qrcode"></div>
+
+
+</div>
+   
+  
+
+</body>
+</html>

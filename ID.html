@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>MyApp</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <script src="node_modules/web3.js-browser/build/web3.min.js"></script>
+  <script type="text/javascript" src="qrcode.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <link rel="stylesheet" href="stylee.css">
+  
+</head>
+<body>
+
+
+  <div class="main">
+    <header>
+       <div class="nav-bar">
+         <a href="Acceuil.html" class="logo">MySite</a>
+           <div class="navigation">
+              <div class="nav-items">
+                <a href="Acceuil.html">Acceuil</a>
+                <a href="about.html">A propos</a>
+               </div>
+           </div>
+     </div>
+		<header>
+	    <div class="title" style="top:150px;">
+			<h1 style="font-size:40px;"> Veuillez saisir l'identificateur de votre diplôme <h1>
+		</div>
+	    
+		
+		
+		<form method="post" action="ID.html">
+         <div class="input">
+          <input type="text" class="button" id="key" name="identificateur" placeholder="ID du diplôme">
+          <input type="button" class="button" id="submit" name="envoyer" value="confirmer" onclick="Generate()">
+          <script src="Public.js"></script>
+          <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+
+         </div>
+        </form>
+        
+	</div>
+
+
+</body>
+</html>

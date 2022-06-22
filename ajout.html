@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>MyApp</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+  <link rel="stylesheet" href="style-ajout.css">
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <script src="node_modules/web3.js-browser/build/web3.min.js"></script>
+  <script src="ajout.js"></script>
+
+  
+</head>
+<body>
+
+
+    <div class="main">
+        <header>
+           <div class="nav-bar">
+             <a href="Acceuil.html" class="logo">MySite</a>
+               <div class="navigation">
+                  <div class="nav-items">
+                    <a href="Acceuil.html">Acceuil</a>
+                    <a href="about.html">A propos</a>
+                   </div>
+               </div>
+         </div>
+                         
+                    
+        </header>
+    
+	    
+        <div class="title" style="top:120px;">
+			<h4 style="font-size:30px;">Insérez les données de votre dipôme<h4>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+        
+    <form method="post" >
+      <div class="input">
+        <input type="text" class="button" id="lastname" name="lastname" placeholder="Nom" style="margin-left:150px;">
+
+       <input type="text" class="button" id="name" name="name" placeholder="Prénom" >
+
+       <input type="text" class="button" id="id" name="id" placeholder="Identificateur du diplome" >
+
+   
+   
+       
+  </div>
+  <div class="input" style="margin-top:10px;">
+    <input type="text" class="button" id="birthday" name="birthday" placeholder="Date de naissance" style="margin-left:150px;">
+
+   <input type="text" class="button" id="birthplace" name="birthplace" placeholder="Lieu de naissance" >
+   
+       
+   <input type="text" class="button" id="gyear" name="gyear" placeholder="Année de graduation">
+    
+  </div>
+  <div class="input" style="margin-top:10px;">
+    <input type="text" class="button" id="school" name="school" placeholder="Etablissement" style="margin-left:150px;">
+
+       
+    <input type="text" class="button" id="cert" name="cert" placeholder="Titre du diplome">
+    
+   <input type="text" class="button" id="fac" name="fac" placeholder="Faculté">
+  </div>
+  <div class="input" style="margin-top:10px;">
+
+   <input type="text" class="button" id="spec" name="spec" style="width:255px;margin-left:150px;margin-top:2,5px" placeholder="Specialité">
+  </div>
+  
+  
+     <input type="button" class="button" id="submit" value="Confirmer" name="confirm" style="border-radius:5px; margin-left:550px;margin-top:7px;" onclick="Submit()">
+    
+         
+
+ </form >
+
+
+ </div>	
+
+
+
+</body>
+</html>

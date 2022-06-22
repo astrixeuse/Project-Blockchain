@@ -1,0 +1,190 @@
+.outer-border{
+    background-image: url(img2.jpg); width:1250px; height:540px; padding:20px; text-align:center; border: 10px solid #00114F;    margin-left: 20px;
+	
+}
+
+.inner-dotted-border{
+    width:1200px; height:490px; padding:20px; text-align:center; border: 5px solid #00114F;border-style: dotted;
+}
+
+.certification{
+    font-size:50px; font-weight:bold; color: #00114F; 
+}
+
+.certify{
+    font-size:25px;
+}
+
+.name{
+    font-size:30px;    color: #00114F;
+}
+
+.fs-30{
+    font-size:30px;
+}
+
+.fs-20{
+    font-size:20px;
+}
+
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+}
+
+/*************** main************** */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/***************** header********************* */
+
+
+
+header{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+}
+
+header .nav-bar{
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    height: 4em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    transition: 0.5s ease;
+}
+
+.nav-bar .logo{
+    color: #fff;
+	font-family: 'times new roman';
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.navigation .nav-items a{
+
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
+.navigation .nav-items a:hover{
+    background-color:#fff;
+	color: #000;
+	border-radius:2px;
+    
+}
+
+
+.navigation .nav-items a:not(:last-child){
+    margin-right: 50px;
+}
+
+/***************** buttons********************* */
+
+
+.input {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+.button {
+    height: 50px;
+	width: 200px;
+    border: none;
+    margin-top:70px;
+  }
+  
+  
+#submit {
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius:7px ;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+	margin-left:33%;
+	
+  }
+#submit1 {
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+	margin-left:10px;
+  }
+    
+#submit:hover {
+    background: #d45d7d;
+  }
+  
+#submit1:hover {
+    background: #d45d7d;
+  }  
+  
+input:focus {
+    outline: none;
+    outline: 2px solid #2E4053;
+    box-shadow: 0 0 2px #2E4053;
+
+  }
+  
+/*************diplome**************/
+.outer-border{
+    background-image: url(img1.jpg); 
+	height:450px; padding:20px; margin-left: 20px; margin-right:20px; margin-top:10px;
+	
+}
+
+.certification{
+    font-size:50px; font-weight:bold; color: #00114F; text-align:center;
+}
+
+.certify{
+    font-size:25px;
+}
+
+.name{
+    font-size:30px; color: #00114F;
+}
+
+.champ{
+	height:30px;
+	width:200px;
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    color: #000;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px;
+  } 

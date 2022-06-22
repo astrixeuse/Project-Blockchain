@@ -1,0 +1,233 @@
+/*************** main************** */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+}
+
+/***************** header********************* */
+
+header .nav-bar{
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    height: 4em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    transition: 0.5s ease;
+}
+
+.nav-bar .logo{
+    color: #fff;
+	font-family: 'times new roman';
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.navigation .nav-items a{
+
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
+.navigation .nav-items a:hover{
+    background-color:#fff;
+	color: #000;
+	border-radius:2px;
+    
+}
+
+
+.navigation .nav-items a:not(:last-child){
+    margin-right: 50px;
+}
+
+
+
+/*******************index ************************/
+
+
+.title{
+	position:absolute;
+	top:30%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	
+	
+	
+}
+
+.title h1{
+	
+	color:#fff;
+	font-size:50px;
+
+}
+.welcome{
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	
+	
+	
+}
+
+.welcome h3{
+	
+	color:#fff;
+	font-size:30px;
+
+}
+
+.content{
+	
+    width: 1000px;
+    height: auto;
+    margin:auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .cn{
+    width: 160px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    border: none;
+    margin-top: 330px;
+    margin-left: 120px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+	
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #d45d7d;
+}
+
+/******************** clef************************* */
+
+form {
+    width: 450px;
+    margin: 15% auto;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button {
+    height: 44px;
+    border: none;
+  }
+  
+  #add {
+    width: 75%;
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    color: #fff;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+  }
+
+  #key {
+    width: 75%;
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    color: #fff;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+  }
+    
+  #hash {
+    width: 2000px;
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    color: #fff;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+
+  }
+  #keyy {
+    width: 2000px;
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    color: #fff;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+
+  }
+  
+  
+  #submit {
+    width: 25%;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+  }
+    
+  
+  #submit:hover {
+    background: #d45d7d;
+  }
+    
+  
+  input:focus {
+    outline: none;
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+
+
+  }
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>MyApp</title>
+  <meta name="description" content="">
+  <script src="Public.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+  <link rel="stylesheet" href="stylee.css">
+  
+</head>
+<body>
+
+
+  <div class="main">
+    <header>
+       <div class="nav-bar">
+         <a href="Acceuil.html" class="logo">MySite</a>
+           <div class="navigation">
+              <div class="nav-items">
+                <a href="Acceuil.html">Acceuil</a>
+                <a href="about.html">A propos</a>
+               </div>
+           </div>
+     </div>
+		<header>
+	    <div class="title" style="top:150px; ">
+			<h1 style="font-size:35px;"> Veuillez saisir les infos que vous avez scanné <h1>
+		</div>
+	    
+		
+		
+		<form method="post">
+         <div class="input" width:20000px; height:500px;>
+          <input type="text" class="button" id="hash" name="hash" placeholder="hash" style="border-radius:5px;">
+        </div>
+        <div class="input" width:20000px; height:500px;>
+         <input type="text" class="button" id="keyy" name="identificateur" placeholder="identificateur" style="border-radius:5px;">
+            </div>
+    
+            <br>
+            <br>
+            <input type="button" class="button" id="submit" name="envoyer" value="Scanner" style="margin-left:170px; border-radius:5px;" onclick="window.open('index.html');">
+
+          <input type="button" class="button" id="submit" name="envoyer" value="confirmer" style="margin-left:170px; border-radius:5px;" onclick="Hasheuse()">
+          <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+
+        </form>
+        
+	</div>
+
+
+</body>
+</html>
